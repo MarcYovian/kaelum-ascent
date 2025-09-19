@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
 
 <head>
     <meta charset="utf-8">
@@ -13,15 +13,18 @@
     @livewireStyles
 </head>
 
-<body class="bg-gray-700">
-    <main class="">
-        <h1 class="bg-red-300 text-sm">
-            Hello world!
-        </h1>
-    </main>
+<body class="bg-background text-foreground antialiased">
+    <div class="relative min-h-screen">
+        <x-partials.navigation />
+
+        <main>
+            {{ $slot }}
+        </main>
+
+        <x-partials.footer />
+    </div>
 
     @stack('scripts')
-
     @livewireScripts
 </body>
 
