@@ -43,12 +43,7 @@
                 <ul class="space-y-3">
                     <li class="flex items-center space-x-3">
                         {{-- SVG untuk ikon Mail --}}
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="text-primary">
-                            <rect width="20" height="16" x="2" y="4" rx="2" />
-                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                        </svg>
+                        <i class="fa-regular fa-envelope text-primary"></i>
                         <a href="mailto:hello@kaelumascent.com"
                             class="text-sm transition-colors duration-300 text-muted-foreground hover:text-primary">
                             hello@kaelumascent.com
@@ -56,11 +51,7 @@
                     </li>
                     <li class="flex items-center space-x-3">
                         {{-- SVG untuk ikon MessageCircle --}}
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="text-primary">
-                            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
-                        </svg>
+                        <i class="fa-regular fa-message text-primary"></i>
                         <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer"
                             class="text-sm transition-colors duration-300 text-muted-foreground hover:text-primary">
                             WhatsApp Chat
@@ -68,12 +59,7 @@
                     </li>
                     <li class="flex items-center space-x-3">
                         {{-- SVG untuk ikon MapPin --}}
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="text-primary">
-                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                            <circle cx="12" cy="10" r="3" />
-                        </svg>
+                        <i class="fa-solid fa-location-dot text-primary"></i>
                         <span class="text-sm text-muted-foreground">
                             Surabaya, Indonesia
                         </span>
@@ -88,24 +74,12 @@
                     <a href="https://linkedin.com/company/kaelumascent" target="_blank" rel="noopener noreferrer"
                         class="flex items-center justify-center w-10 h-10 transition-colors duration-300 rounded-lg bg-muted text-muted-foreground hover:bg-primary hover:text-primary-foreground interactive-lift">
                         {{-- SVG untuk ikon Linkedin --}}
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                            <rect width="4" height="12" x="2" y="9" />
-                            <circle cx="4" cy="4" r="2" />
-                        </svg>
+                        <i class="fa-brands fa-linkedin-in text-primary"></i>
                     </a>
                     <a href="https://instagram.com/kaelumascent" target="_blank" rel="noopener noreferrer"
                         class="flex items-center justify-center w-10 h-10 transition-colors duration-300 rounded-lg bg-muted text-muted-foreground hover:bg-primary hover:text-primary-foreground interactive-lift">
                         {{-- SVG untuk ikon Instagram --}}
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                        </svg>
+                        <i class="fa-brands fa-instagram text-primary"></i>
                     </a>
                 </div>
             </div>
