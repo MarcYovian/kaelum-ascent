@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\Pages\AboutComponent;
+use App\Livewire\Pages\ContactComponent;
 use App\Livewire\Pages\HomeComponent;
 use App\Livewire\Pages\PortfolioComponent;
 use App\Livewire\Pages\ServicesComponent;
@@ -10,3 +11,4 @@ Route::get('/', HomeComponent::class)->name('home');
 Route::get('/services', ServicesComponent::class)->name('services');
 Route::get('/portfolio', PortfolioComponent::class)->name('portfolio');
 Route::get('/about', AboutComponent::class)->name('about');
+Route::get('/contact', ContactComponent::class)->name('contact');
