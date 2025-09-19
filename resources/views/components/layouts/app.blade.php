@@ -17,7 +17,7 @@
     <div class="relative min-h-screen">
         <x-partials.navigation />
 
-        <main>
+        <main class="pt-16">
             {{ $slot }}
         </main>
 

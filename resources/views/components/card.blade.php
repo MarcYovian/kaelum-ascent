@@ -8,7 +8,7 @@
     'footer' => null,
 ])
 
-<div {{ $attributes->merge(['class' => 'rounded-lg border bg-card text-card-foreground shadow-sm']) }}>
+<div {{ $attributes->merge(['class' => 'rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col']) }}>
     {{-- Bagian Header --}}
     @if ($header || $title || $description)
         <div {{ $header?->attributes->merge(['class' => 'flex flex-col space-y-1.5 p-6']) }}>
@@ -31,7 +31,7 @@
     @endif
 
     {{-- Bagian Konten --}}
-    <div {{ $content?->attributes->merge(['class' => 'p-6 pt-0']) }}>
+    <div {{ $content?->attributes->merge(['class' => 'p-6 pt-0 flex-grow']) }}>
         {{ $content ?? $slot }}
     </div>
 
